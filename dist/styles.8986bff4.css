@@ -18,8 +18,39 @@ cursor: pointer;
 font-weight: bolder;
 font-size: larger;
 color:antiquewhite;
-font-family: 'Megrim', cursive;
+/* font-family: 'Megrim', cursive; */
+font-family: 'Montserrat', sans-serif;
+
 }
+header {
+    animation:7s blinker linear infinite;
+    -webkit-animation:7s blinker linear infinite;
+    -moz-animation:7s blinker linear infinite;
+    color: rgb(42, 185, 221);
+    text-shadow: 2px 2px 3px;
+}
+
+@-moz-keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+ }
+
 .navbar{
     width: 85%;
     height: 15%;
@@ -84,7 +115,7 @@ width: 50px;
 animation: bubble 7s linear infinite;
 }
 .bubbles{
-    width: 100px; 
+    width: 100%; 
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -135,5 +166,8 @@ animation: bubble 7s linear infinite;
     animation-delay: 7s;
     width: 35px;
 }
+
+
+
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */
