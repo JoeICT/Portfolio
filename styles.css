@@ -166,5 +166,11 @@ animation: bubble 7s linear infinite;
     animation-delay: 7s;
     width: 35px;
 }
+main{
+    background-color: aqua;
+    color:#df6cee
+}
 
-
+.formbody{
+    background-color: aquamarine;
+}
