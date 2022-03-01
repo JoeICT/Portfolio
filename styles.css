@@ -184,7 +184,7 @@ animation: bubble 7s linear infinite;
     background-size: cover;
     background-position: center;
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
     background-image: url(smokecloud.jpg
     );
 }
@@ -245,3 +245,126 @@ animation: bubble 7s linear infinite;
         animation-delay: 7s;
         width: 35px;
     }
+    .aboutbody {
+        width: 100%;
+        height: 100vh;
+        background-image: url(unicorn.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .aboutbubbles img{
+        width: 50px;
+        animation: bubble 7s linear infinite;
+        }
+        .aboutbubbles{
+            width: 100%; 
+            display: flex;
+            align-items: center;
+            /* justify-content: space-around; */
+            position: absolute;
+            bottom: -70px;
+        }
+        
+        @keyframes bubble {
+            0%{
+                transform: translateY(0);
+                opacity: 0;
+            }
+            50%{
+               
+                opacity: 1;
+            }
+            70%{
+                
+                opacity: 1;
+            }
+            100%{
+                transform: translateY(-80vh);
+                opacity: 0;
+            }
+        }
+        .aboutbubbles img:nth-child(1){
+             animation-delay: 2s;
+             width: 25px;
+        }
+        .aboutbubbles img:nth-child(2){
+            animation-delay: 1s;
+        }
+        .aboutbubbles img:nth-child(3){
+            animation-delay: 3s;
+            width: 25px;
+        }
+        .aboutbubbles img:nth-child(4){
+            animation-delay: 4.5s;
+        }
+        .aboutbubbles img:nth-child(5){
+            animation-delay: 3s;
+        }
+        .aboutbubbles img:nth-child(6){
+            animation-delay: 6s;
+            width: 20px;
+        }
+        .aboutbubbles img:nth-child(7){
+            animation-delay: 7s;
+            width: 35px;
+        }
+
+        /* 2nd group of bubbles on right of about page */
+        .aboutbubbles2 img{
+            width: 50px;
+            animation: bubble 7s linear infinite;
+            }
+            .aboutbubbles2{
+                width: 100%; 
+                display: flex;
+                align-items: center;
+                justify-content:end;
+                position: absolute;
+                bottom: -70px;
+            }
+            
+            @keyframes bubble {
+                0%{
+                    transform: translateY(0);
+                    opacity: 0;
+                }
+                50%{
+                   
+                    opacity: 1;
+                }
+                70%{
+                    
+                    opacity: 1;
+                }
+                100%{
+                    transform: translateY(-80vh);
+                    opacity: 0;
+                }
+            }
+            .aboutbubbles2 img:nth-child(1){
+                 animation-delay: 2s;
+                 width: 25px;
+            }
+            .aboutbubbles2 img:nth-child(2){
+                animation-delay: 1s;
+            }
+            .aboutbubbles2 img:nth-child(3){
+                animation-delay: 3s;
+                width: 25px;
+            }
+            .aboutbubbles2 img:nth-child(4){
+                animation-delay: 4.5s;
+            }
+            .aboutbubbles2 img:nth-child(5){
+                animation-delay: 3s;
+            }
+            .aboutbubbles2 img:nth-child(6){
+                animation-delay: 6s;
+                width: 20px;
+            }
+            .aboutbubbles2 img:nth-child(7){
+                animation-delay: 7s;
+                width: 35px;
+            }
