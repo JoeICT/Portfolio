@@ -7,6 +7,26 @@
       <link rel="stylesheet" href="styles.css">
 
         <title></title>
+
+        <style> 
+          .email {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+            left:10px;
+    
+          }
+          
+          @keyframes example {
+            0%   {left:0px; top:0px;}
+            25%  {left:900px; top:0px;}
+            50%  {left:200px; top:200px;}
+            75%  {left:0px; top:200px;}
+            100% {left:0px; top:0px;} 
+          }
+          </style>
     </head>
     <body class="formbody">
       <main>
@@ -19,6 +39,9 @@
     <input type="email" name="email">
   </label><br>
   <label>
+    <div class="email">
+      <img src="contact.jpg" alt="email">
+    </div>
     Your message:
     <textarea name="message"></textarea>
   </label><br>
@@ -46,6 +69,10 @@
   <img src="mist.jpg">
   <img src="mist.jpg">
 </div>
+<!-- <div class="email">
+  <img src="contact.jpg" alt="email">
+</div> -->
+
 <footer class="footer">
   <img src="flower.jpg">
   <img src="greentree.jpg" class="tree">

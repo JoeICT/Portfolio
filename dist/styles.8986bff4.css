@@ -403,7 +403,7 @@ animation: bubble 7s linear infinite;
             align-items: flex-end;
             justify-content: space-around;
             position: absolute;
-            bottom: -48px;
+            bottom: -78px;
             
             }
         .pyramid img{
@@ -413,6 +413,8 @@ animation: bubble 7s linear infinite;
             height:60%;
             margin-left: 60%;
         }
-        
+       .email{
+           left:-70px;
+       }
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */
