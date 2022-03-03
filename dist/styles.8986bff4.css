@@ -403,13 +403,15 @@ animation: bubble 7s linear infinite;
             align-items: flex-end;
             justify-content: space-around;
             position: absolute;
-            bottom: 0;
+            bottom: -48px;
             
             }
         .pyramid img{
-            width:10%;
-            height:30%;
-            margin-left: 68%;
+            /* width:20%;
+            height:40%; */
+            width:40%;
+            height:60%;
+            margin-left: 60%;
         }
         
 
