@@ -6,7 +6,68 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <style>/* for ufo animation */
+          .alien {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation-name: alien;
+            animation-duration: 12s;
+            left:-210px;
+            animation-delay: 7s;
+          }
+          
+          @keyframes alien {
+            /* 0%   {left:0px; top:0px;}
+            25%  {left:900px; top:0px;}
+            50%  {left:200px; top:200px;}
+            75%  {left:0px; top:200px;}
+            100% {left:0px; top:0px;}  */
+  
+0% {
+  left: 0; top:100%;
+}
+  /* 50% {
+  left: 50%;
+  top:50%; 
 
+}  */
+100% {
+  left: 100%; 
+  top:-20%;   
+}
+}</style>
+        <!-- for rocket animation -->
+       <style>.launch {
+              width: 100px;
+              height: 100px;
+              position: relative;
+              animation-name: example;
+              animation-duration: 9s;
+              left:-210px;
+              animation-delay: 5s;
+            }
+            
+            @keyframes example {
+              /* 0%   {left:0px; top:0px;}
+              25%  {left:900px; top:0px;}
+              50%  {left:200px; top:200px;}
+              75%  {left:0px; top:200px;}
+              100% {left:0px; top:0px;}  */
+    
+  0% {
+    left: 0; top:100%;
+  }
+  50% {
+    left: 50%;
+    top:50%;
+
+  }
+  100% {
+    left: 100%; 
+    top:-20%;   
+  }
+}</style>
     <script src="/styles.8986bff4.js"></script><script src="/form.js"></script></head>
     <body>
 <div class="hero">
@@ -19,7 +80,9 @@
     <div class="content">
         <small>Welcome to my page</small>
         <h1>Joes's<br>Creative Portfolio</h1>
-        <button type="button">My work</button>
+        <a href="/experiment.html">
+        <button type="button">My work</button></a>
+        
         <!-- <form method="get" action="/page2"> -->
             <a href="/aboutme.html">
     <button type="submit">About Me</button></a>
@@ -39,7 +102,12 @@
             <img src="/question.3434526d.png">
         </div>
     </div>
-    
+    <div class="launch">
+        <img src="/rocket.f4ab5acd.jpg" alt="rocket">
+      </div>
+      <div class="alien">
+        <img src="/ufo.1bca6295.jpg" alt="ufo">
+      </div>
     <div class="bubbles">
         <img src="/bubble.44904b94.png">
         <img src="/bubble.44904b94.png">
