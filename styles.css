@@ -426,4 +426,6 @@ animation: bubble 7s linear infinite;
         background: black;
       } */
 
-     
+      @media (max-width: 550px){
+        .hero img{
+          text-align:center;}}
