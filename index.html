@@ -104,6 +104,40 @@
       }
                   
                   </style>
+                    <style> 
+                      .thanks{
+                        width: 100px;
+                        height: 100px;
+                        position: relative;
+                        animation-name: thankyou;
+                        /* animation-duration:30s; */
+                        animation-duration: 18s;
+                        left:-210px;
+                        animation-delay: 22s;
+                        color:white;
+                        /* border: 1px solid #000; */
+                        width: 100px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        
+                      }
+                      
+                      @keyframes thankyou {
+              
+            0% {
+              left: 50%; top:-400px; width:100px;
+            }
+            /* 50% {
+              left: 50%;
+              top:50%;
+           
+            }*/
+            100% {
+              left: 50%;width:400px;
+              top:50px;   
+            }
+          }
+          </style>
     </head>
     <body>
 <div class="hero">
@@ -147,6 +181,7 @@
       <div class="spaceship3">
         <img src="spaceship.jpg" alt="spaceship">
       </div>
+      <div class="thanks"><p><h1>Thank You For Visiting</h1></p></div>
     <div class="bubbles">
         <img src="bubble.png">
         <img src="bubble.png">
