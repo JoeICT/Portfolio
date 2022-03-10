@@ -58,8 +58,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
+
 button{
     color: #fbfcfd;
     padding: 10px 25px;
@@ -68,6 +68,9 @@ button{
     border-radius: 20px;
     outline: none;
     cursor: pointer;
+}
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .content {
     color: #fbfcfd;
@@ -426,6 +429,7 @@ animation: bubble 7s linear infinite;
         background-color:rgb(158, 158, 158, 0.6);
         transition: all .7s ease-in-out; 
         transform: scale(1.4); 
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         /* background-image:url(sendit.jpg); */
         
        }
