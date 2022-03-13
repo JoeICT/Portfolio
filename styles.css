@@ -444,3 +444,22 @@ animation: bubble 7s linear infinite;
       @media (max-width: 550px){
         .hero img{
           text-align:center;}}
+
+          .myworkheader{
+              display: block;
+              align-items: center;
+              text-align: center;
+              background-color: rgba(0, 0, 0, 0.0);
+              color:rgb(248, 249, 250);
+              font-family: 'Open Sans', sans-serif;
+              font-size:xx-large;
+              padding-top: 50px;
+          }
+          .myworkbody{
+              background-image: url(bigbubble.jpg);
+             background-size: 100%, 100%;
+             background-repeat:no-repeat;
+             background-position-x: center;
+              
+          }
+        
