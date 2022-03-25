@@ -9,23 +9,33 @@
         <title></title>
 
         <style> 
+
+
+
           .email {
             width: 100px;
             height: 100px;
             position: relative;
             animation-name: example;
-            animation-duration: 4s;
+            animation-duration: 7s;
             left:-210px;
     
           }
           
           @keyframes example {
             0%   {left:0px; top:0px;}
-            25%  {left:900px; top:0px;}
-            50%  {left:200px; top:200px;}
+            25%  {left:105%; top:0px;}
+            50%  {left:400px; top:600px;}
             75%  {left:0px; top:200px;}
             100% {left:0px; top:0px;} 
           }
+          /* @keyframes example {
+            0%   {left:0px; top:0px;}
+            25%  {left:105%; top:0px;}
+            50%  {left:200px; top:200px;}
+            75%  {left:0px; top:200px;}
+            100% {left:0px; top:0px;} 
+          } */
           </style>
     </head>
     <body class="formbody">
@@ -46,7 +56,8 @@
     <textarea name="message"></textarea>
   </label><br>
   <!-- your other form fields go here -->
-  <button type="submit" class="emailbutton"><span>Send</span></button>
+  <button type="submit" class="glow-on-hover"><span>Send</span></button>
+  
 </form>
 
 
