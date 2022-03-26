@@ -60,12 +60,13 @@ header {
     justify-content: space-between;
 }
 
-button{
+.button{
     color: #fbfcfd;
     padding: 10px 25px;
+    margin-right: 200px;
     background: transparent;
-    border: 1px solid #fff;
-    border-radius: 20px;
+    /* border: 1px solid #fff; */
+    /* border-radius: 20px; */
     outline: none;
     cursor: pointer;
 }
