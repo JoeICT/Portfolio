@@ -199,7 +199,8 @@ animation: bubble 7s linear infinite;
     position: relative;
     overflow:hidden;
     /* background-image: url(smokecloud.jpg */
-    background: linear-gradient(#000000, #31f700 , black);
+    background: linear-gradient(to bottom right, blue, #000000, #31f700 , black, purple);
+
 }
 .misty img{
     width: 50px;
@@ -390,6 +391,7 @@ animation: bubble 7s linear infinite;
                 position: relative;
                 flex-direction: column;
                 background-color:rgb(5, 5, 5, 0.5);
+                
             }
             label {
                 font-family: 'Architects Daughter', cursive;
