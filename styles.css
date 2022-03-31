@@ -92,7 +92,7 @@ button:hover{
 .contact-bar{
     width: 50px;
     height: 100vh;
-    background: linear-gradient(#000000, #31f700 , black);
+    background: linear-gradient(blue, #000000, #31f700 , black, purple);
     position: absolute;
     right: 0;
     top: 0;
