@@ -199,7 +199,7 @@ animation: bubble 7s linear infinite;
     position: relative;
     overflow:hidden;
     /* background-image: url(smokecloud.jpg */
-    background: linear-gradient(to bottom right, blue, #000000, #31f700 , black, purple, yellow);
+    background: linear-gradient(to bottom right, turquoise, blue, #000000, #31f700 , black, purple, yellow);
 
 }
 .misty img{
