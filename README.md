@@ -1,3 +1,3 @@
 # Portfolio
 
-This is my experimental portfolio in progress. 
+ Experimental portfolio in progress. 
