@@ -394,8 +394,7 @@ animation: bubble 7s linear infinite;
                 
             }
             label {
-                font-family: 'Architects Daughter', cursive;
-
+                font-family: 'Fascinate', cursive;
             }
             footer {
                 width: 100%; 
@@ -533,8 +532,5 @@ animation: bubble 7s linear infinite;
               
           }
         
-.btn {
-    background-color: #31f700;
-}
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */
